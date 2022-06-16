@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+body {
+    font-family: "Nunito", sans-serif;
+    line-height: 1.6;
+    background-color: #fee2b3;
+    overflow-x: hidden;
+    font-size: 16px;
+    color: #333;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.site-nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+.untree_co-hero{
+    height: 100vh;
+    min-height: 650px;
+    background-image: linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0,0.6)), url("https://preview.colorlib.com/theme/meal2/images/hero_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.logo {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    left: 30px;
+}
+.text-primary {
+    color: #ff5200 !important;
+}
+#hom {
+    color: #ffffff;
+}
+.navbar-nav li > a {
+    font-size: 14px;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+#more:hover{
+    background-color: tomato;
+}
+#hom:hover{
+    color: black;
+    background-color: white;
+}
+#hov:hover{
+    color: black;
+    background-color: white;
+}
+.btn-sm, .anchor a {
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+.btn-primary {
+    background-color: #ff5200;
+    border-color: #ff5200;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.untree_co-hero > .container > .row {
+    height: 100vh;
+    min-height: 650px;
+}
+.untree_co-hero .caption {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: .1rem;
+}
+.heading {
+    font-size: 70px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+.desc {
+    font-family: "Nunito", sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+}
+#p1 a{
+    text-decoration: none;
+
+}
+.scale{
+    transition: transform 2s;
+}
+.scale:hover{ 
+    transform: scale(-1,1);
+}
+.link-highlight {
+    color: #ffffff;
+    position: relative;
+    display: inline;
+    box-shadow: 0 5px 0 0 #ff5200;
+}
+.btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+}
+.social-hero-section {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    z-index: 2;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.social-hero-section li a {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    display: inline-block;
+    background: #ffffff;
+    border-radius: 50%;
+    color: #ff5200;
+    
+}
+.social-hero-section li a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.untree_co-section {
+    padding: 100px 0;
+    position: relative;
+}
+.subtitle {
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    letter-spacing: .1rem;
+}
+.heading h3 {
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+    color: #000000;
+}
+
+.heading strong {
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+}
+.untree_co-tab-nav li {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.untree_co-tab-nav li a {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 30px;
+    color: #000000;
+}
+#bgwhite{
+    background-color: white;
+}
+.untree_co-tab-nav li img {
+    width: 25px;
+    margin-right: 20px;
+}
+.text-black {
+    font-family: "Playfair Display", serif;
+    color: #000000 !important;
+}
+.thumbnail {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.product h3 a {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: #000000;
+}
+.product h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+}
+.product .price {
+    color: #ff5200;
+}
+.subtitle {
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    letter-spacing: .1rem;
+}
+.text-primary {
+    font-family: "Playfair Display", serif;
+    color: #ff5200 !important;
+}
+.aos-animate a{
+    text-decoration: none;
+}
+.aos-animate a:hover{
+    text-decoration: none;
+    /* background-color: white; */
+    transition: .3s all ease;
+}
+h3{
+    font-family: "Playfair Display", serif;
+}
+.dess-item {
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+/* .dess-item figure {
+    flex: 0 0 60px;
+} */
+.dess-item > div h3 {
+    font-size: 20px;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: "Playfair Display", serif;
+    color: #000000;
+}
+.dess-item > div .price {
+    font-size: 20px;
+    color: #ff5200;
+    text-decoration: none;
+}
+.pgallary, .Book {
+    padding: 100px 0;
+    background-image: linear-gradient(rgba(226, 192, 128, 0.9),rgba(226, 192, 128, 0.9)), url("https://preview.colorlib.com/theme/meal2/images/hero_bg_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.testimonial-wrap h2{
+    font-family: "Playfair Display", serif;
+}
+.author {
+    display: block;
+    margin-bottom: 40px;
+}
+.block-testimonial .author img {
+    width: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.author h3 {
+    font-size: 18px;
+    color: #ff5200;
+    margin-bottom: 0;
+}
+.block-testimonial p {
+    font-size: 14px;
+    color: #000000;
+    line-height: 2;  
+}
+.gal {
+    display: block;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.Events h2{
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    font-size: 2rem;
+    font-family: "Playfair Display", serif;
+}
+.Events p{
+    font-family: "Nunito", sans-serif;
+}
+.event-price {
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    color: #ff5200;
+}
+.Book{
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.site-footer {
+    background: #645f56;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 70px 0;
+}
+.widget {
+    margin-bottom: 40px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.widget h3 {
+    font-size: 19px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-family: "Playfair Display", serif;
+}
+.social li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50%;
+    color: #000000;
+}
+.social li a > i {
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.social li, .social-hero-section li {
+    display: inline-block;
+}
+.links li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.links li {
+    margin-bottom: 10px;
+}
+@media (min-width:320px) and (max-width:480px){
+    .social-hero-section{
+        display: none;
+    }   
+    .navbar-collapse{
+        background-color: black;
+        text-align: center;
+    }
+}
+@media (min-width:320px) and (max-width:768px){
+    .navbar-nav{
+        background-color: black;
+        color: white;
+    }
+}

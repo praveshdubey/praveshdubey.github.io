@@ -1,0 +1,437 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+.nav-head{   
+    width: 100%; 
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.7)), url("https://demo.themefisher.com/meghna/images/banner/hero-area.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.scale{
+    transition: transform 2s;
+}
+.scale:hover{ 
+    transform: scale(-1,1);
+}
+
+.nav-head::after{
+    content:'';
+    position: absolute;
+    z-index: 01;
+    bottom: 0;
+    left: 0;
+    right: 0;;
+}
+.con{
+    background-color: black !important;
+}
+
+.data{
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+.youtube{
+    background: #fff;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    line-height: 60px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+#nav-head-a2:hover{
+    transition: all .2s ease-in 0s;
+    background-color: #17a2b8;
+    border: 2px solid #17a2b8;
+   
+
+}
+.youtube i{
+    color: #57cbcc;
+}
+.para{
+    width: 70%;
+    margin: 0 auto;
+}
+.data h1{
+    font-size: 60px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.data p{
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin-bottom: 50px;
+}
+#nav-head-a2{
+   font-family: 'Roboto', sans-serif;
+    border: 2px solid #fff;
+    padding: 15px 50px;
+    font-size: 18px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.navi{
+    background-color: black;
+}
+.about{
+    margin: 0 auto;
+    background: #353b43;  
+}
+.aboutdiv{
+    width: 200px;
+    margin: 0 auto;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+}
+.aboutdiv1{
+    width: 75px;
+    height: 10px;
+    margin: 0 auto;
+    height: 2px;
+    background-color: rgb(0, 221, 250);
+}
+#HM{
+    color: rgb(0, 221, 250);
+}
+.color{
+    color:  rgb(0, 221, 250);
+}
+.about h1, .services h1 , .containe-skills h1, .title h2, .contactform1 h2, .team1 h2{
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: lighter;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0 auto;
+    color: white;
+    font-family: "Quattrocento Sans", sans-serif;
+}
+.about-icon, .services-icon{
+    font-size: 35px;    
+    
+}
+.about-icon {
+    position: relative;
+    width: 160px;
+    height: 92.38px;
+    background-color: transparent;
+    margin: 46.19px auto 0px;
+    padding: 20px 0;
+    border-left: 2px solid rgba(236, 239, 241, 0.07);
+    border-right: 2px solid rgba(236, 239, 241, 0.07);
+    border-top: 2px solid rgba(236, 239, 241, 0.07);
+    border-bottom: 2px solid rgba(236, 239, 241, 0.07);   
+}
+.card-title h3{
+    font-weight: lighter;
+    font-family: "Quattrocento Sans", sans-serif;
+    color: #afbac4;
+    font-size: 1.75rem;
+}
+.card-text p{
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 11px;
+}
+.one{
+    background:#242930;
+    color: #afbac4;;
+}
+.agency-img1 img{
+    max-width: 100%;
+    height: auto;
+}
+.agency-right h4{
+    font-weight: 400;
+    font-family: "Quattrocento Sans", sans-serif;
+    color: #afbac4;
+    font-size: 2rem;
+}
+h6{
+    font-family: "Quattrocento Sans", sans-serif;
+    color: #afbac4;
+    font-size: 16px;
+    font-weight: 600;
+}
+.fa-drafting-compass{
+    color: #afbac4;
+}
+.agency-right p{
+    font-family: "Quattrocento Sans", sans-serif;
+    color: #737f8a;
+    font-size: 1rem;;
+}
+.lucky{
+    background-color: blueviolet;
+}
+.feacture{
+    background-image: url("https://demo.themefisher.com/meghna/images/backgrounds/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-size: 100% 100%
+}
+.text-center h2{
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.text-center p{
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 16px;
+}
+.text-center a{
+    font-family: "Quattrocento Sans", sans-serif;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: rgb(0, 241, 229);
+}
+.text-center a:hover{
+    background-color: teal;
+}
+.services{
+        color: #afbac4;;
+}
+.services-icon h5{
+    font-family: "Quattrocento Sans", sans-serif;
+}
+.services-icon p{
+    font-size: 13px;
+    font-family: "Quattrocento Sans", sans-serif;
+}
+.service-block {
+    padding: 60px 20px;
+    border-left: 1px solid rgba(236, 239, 241, 0.07);
+    border-top: 1px solid rgba(236, 239, 241, 0.07);
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 5px rgb(44 44 44 / 30%), 13px 13px 0 rgb(255 255 255 / 70%);
+}
+.btn-main {
+    background: #57cbcc;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+}
+.skills{
+    background: #292F36;
+    color: #afbac4;
+}
+.skillsh4{
+    font-weight: 400;
+    font-family: "Quattrocento Sans", sans-serif;
+    color: #afbac4;
+    font-size: 1.4rem;
+}
+.skillshp{   
+    font-family: "Quattrocento Sans", sans-serif;
+    color: #afbac4;
+    font-size: 0.9rem;
+}
+.skill-bar li{
+    list-style: none;
+}
+.d1-img{
+    width: 100%;
+    height: auto;
+}
+.port{
+    font-family: "Quattrocento Sans", sans-serif;
+}
+.button1{
+    border: 1px solid #57cbcc;
+    color: #57cbcc;
+}
+.button2{
+    border: 1px solid #737f8a;;
+    color: #737f8a;;
+}
+.feedback{
+    background-image: url("https://demo.themefisher.com/meghna/images/backgrounds/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.feed-icon{
+    font-size: 20px;
+}
+.contain-items h4{
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.contain-items h3{
+    font-family: "Quattrocento Sans", sans-serif;
+    color: #afbac4;
+    font-size: 15px;
+    display: block;
+}
+.contain-items{
+    padding: 25px 0;
+    background: #292F36;;
+    color: gray;
+    font-weight: 400;
+    font-family: "Quattrocento Sans", sans-serif;
+}
+.team-block img{
+    width: 100%;
+}
+.intro{
+    background-image:linear-gradient(rgba(0, 0, 0,0.4),rgba(0, 0, 0,0.4)), url("https://demo.themefisher.com/meghna/images/backgrounds/bg-2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.intro-parent{
+    width: 100%;
+    text-align: center;
+}
+.intro-child{
+    width: 100%;
+    margin: 0 auto;
+}
+.intro-child h3{
+    font-family: "Quattrocento Sans", sans-serif;
+    color: #afbac4;
+    font-size: 1.5rem;
+}
+.intro-child span{
+    color: #737f8a;
+    font-family: "Anaheim", sans-serif;
+    font-size: 1.5rem;
+    
+}
+.intro-child p{
+    color: #afbac4;
+    font-size: 1rem;
+    font-family: "Quattrocento Sans", sans-serif;
+}
+.intro-child-child{
+     width: 80%;
+    margin: 0 auto;
+}
+.intro-child img{
+    width: 100px;
+    height: 100px;
+    border: 1px ;
+    border-radius: 100%;
+    
+}
+.team-block h4{
+    font-family: "Quattrocento Sans", sans-serif;
+    color: #afbac4;
+    font-size: 20px;
+}
+.team-block h6{
+    font-size: 15px;
+    font-family: "Anaheim", sans-serif;
+    color: #737f8a;
+}
+.team-block p{
+    color: #737f8a;
+    font-size: 14px;
+    font-family: "Quattrocento Sans", sans-serif;
+}
+.one-one{
+    height: 465px;
+}
+.one-one img{
+    width: 100%;
+}
+.post{
+    background-color: #343a40;
+}
+.inp input, .inp textarea, .inp button{
+    background: transparent;
+    border-color: rgb(0, 194, 243);
+}
+.contactform{
+    background: #292F36;
+    color: #afbac4;
+}
+.foot-anchor h5{
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    font-family: "Quattrocento Sans", sans-serif;
+}
+.foot-anchor p{
+    margin-bottom: 25px;
+    color: #737f8a;
+    font-family: "Quattrocento Sans", sans-serif;
+}
+.contact-info{
+    color: #afbac4;
+    font-weight: 400;
+    font-family: "Quattrocento Sans", sans-serif;
+}
+.contact-right input{
+    height: 50px;
+}
+.contact-right input, .contact-right textarea{
+    color: #ddd;
+    font-family: "Quattrocento Sans", sans-serif;
+    border: 1px solid;
+}
+.inp button{
+    border: 1px solid rgba(236, 239, 241, 0.07);
+background: #57cbcc;
+padding: 12px 0;
+width: 100%;
+margin: 0;
+color: white;
+font-family: "Quattrocento Sans", sans-serif;
+}
+.footer{
+    text-align: center;
+    background-color: #49525a;;
+}
+.foot-info{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+#foot-icon{
+    color: #55606a;
+}
+.foot-info p{
+    font-size: 17px;
+    color: white;
+    background-color: #49525a;;
+    font-family: "Quattrocento Sans", sans-serif;
+}   
+.progress-bar{
+    background-color: #17a2b8;
+}
+.fas, .far{
+    color: #57cbcc;
+}
+@media (min-width:992px){
+    .data h1{
+        font-size: 90px;
+        font-family: "Quattrocento Sans", sans-serif;
+        margin-top: 20px;
+        font-weight: bolder;
+    }
+    .data p{
+        font-size: 17px;
+    }
+}

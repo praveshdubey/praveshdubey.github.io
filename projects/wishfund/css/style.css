@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    line-height: 1.7;
+    font-family: "Montserrat", sans-serif;
+    color: #464646;
+}
+.head-top{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+    padding: 2px 0px;
+}
+.top-info a{
+    margin-right: 20px;
+    color: #000;
+    text-decoration: none;
+}
+.top-info a i{
+    color: #f89d35;
+}
+.top-right a{
+    color: #232323;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.top-btn{
+    padding: 14px 25px;
+    background: #f89d35;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+.scale{
+    transition: transform 2s;
+}
+.scale:hover{ 
+    transform: scale(-1,1);
+}
+.img-hover-zoom {
+    height: 300px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+.navbar-brand{
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: #232323;
+    text-decoration: none;
+}
+.top-btn:hover{
+    background-color: purple;
+    transition: all .25s ease;
+    font-weight: 500;
+}
+/* .navbar-nav li{
+    padding-left: 15px;
+} */
+.nav-link{
+    font-family: "Montserrat", sans-serif;
+    color: #232323;
+    text-transform: capitalize;
+    font-weight: bolder;
+    /* padding: 30px 10px; */
+    transition: all .25s ease;
+    padding-right: 15px;
+    padding-left: 20px;
+}
+.nav-item a:hover{
+    color: #f89d35;
+}
+#home{
+    color: #f89d35;
+}
+.hero{
+    background: url("https://demo.themefisher.com/wishfund/images/bg/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+}
+.block h1{
+    font-size: 80px;
+    line-height: 80px;
+    color: #fff;
+    font-family: "Bitter", serif;
+    font-weight: 900;
+}
+.block p{
+    color: #b9b9b9;
+}
+.btn-main{
+    background: #f89d35;
+    border-color: #f89d35;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: .75rem 2rem;
+    text-transform: uppercase;
+    border-radius: 0;
+    transition: all 0.2s ease;
+    border: 2px solid transparent;
+}
+.section{
+    padding: 100px 0;
+}
+.sec-title{
+    margin-bottom: 70px;
+}
+.text-color{
+    font-size: 43px;
+    color: #f89d35;
+}
+.content-title{
+    font-size: 40px;
+    line-height: 50px;
+    font-family: "Bitter", serif;
+    font-weight: 900;
+    color: #232323;
+}
+p{
+    color: #6c757d;
+}
+.intro-item h4{
+    font-family: "Bitter", serif;
+    font-weight: 900;
+    color: #232323;
+}
+.text-lg{
+    font-size: 3.25rem;
+    line-height: 1.2;
+    font-family: "Bitter", serif;
+    font-weight: 900;
+}
+.img-block{
+    position: relative;
+    box-shadow: 0px 0px 70px 0px rgba(0, 42, 106, 0.1);
+}
+.video{
+    background: linear-gradient(to right,black 60%,black 0%);
+}
+
+.videoplay{
+    display: inline-block;
+    background: #fff;
+    color: #863bae;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 25px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    left: 0px;
+    margin: auto;
+    margin-top: -25px;
+}
+.counter-stat{
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 1.1;
+    font-family: "Montserrat", sans-serif;
+}
+.gallary-item{
+    margin-bottom: 30px;
+}
+.gallary-item a{
+    color: #232323;
+    text-decoration: none;
+    transition: all .4s ease 0s;
+}
+.gallery-wrap img{
+    margin-bottom: 10px;
+}
+.gallery-p{
+    color: #232323;
+    text-decoration: none;
+    transition: all .4s ease 0s;
+}
+.section-title p{
+    font-family: "Montserrat", sans-serif;
+}
+.fa-play-circle{
+    font-size: 30px;
+    color: #2b2b67;
+}
+.card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;        
+}
+.cause-item{
+    transition: all .4s ease 0s;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+}
+.card-body{
+    padding: 40px;
+}
+.card-body h3{
+    font-family: "Bitter", serif;
+    font-weight: 900;
+    color: #232323;
+    font-size: 22px;
+line-height: 1.6;
+}
+.card-body h3 a{
+    color: #232323;
+    text-decoration: none;
+}
+.text-color1{
+    color: #f89d35;
+}
+.cause-item li span{
+    font-weight: 700;
+}
+.btn-main{
+    background: #f89d35;
+    border-color: #f89d35;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+.btn-main:hover{
+    background-color: purple;
+    color: white;
+    border: none;
+}
+.req-block{
+    background:linear-gradient(rgba(0, 0, 0,0.8),rgba(0, 0, 0,0.8)), url("https://demo.themefisher.com/wishfund/images/bg/bg-3.jpg");
+    background-attachment: fixed 50% 50%;
+    background-size: auto;
+    background-size: cover;
+    padding: 120px 0px;
+}
+.h6{
+    font-family: "Bitter", serif;
+    font-weight: 900;
+    font-size: 14px;
+}
+.blog-item{
+    background: #fff;
+    transition: all .4s ease 0s;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.Volunteer-content{
+    padding-right: 70px;
+}
+.Volunteer-content h2{
+    line-height: 1.6;
+    font-size: 26px;
+    font-family: "Bitter", serif;
+    font-weight: 900;
+    color: #232323;
+    
+}
+.clients-wrap a{
+    color: #232323;
+    text-decoration: none;
+    transition: all .4s ease 0s;
+}
+.clients-wrap a {
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 45%;
+}
+.form1{
+    margin-bottom: 1rem;
+}
+.form-control{
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+.footer, .foot-bottom{
+    padding-bottom: 10px;
+    background: #0a0a0a;
+}
+.footer-menu li{
+    margin-bottom: 15px;
+}
+.footer-menu li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer-menu li a i{
+    color: #f89d35;
+    margin-right: 9px;
+}
+.footer-socials {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.list-inline-item{
+    margin-right: .5rem;
+    display: inline-block;
+}
+.footers-socials li a {
+    font-size: 18px;
+    width: 46px;
+    height: 45px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    display: inline-block;
+    padding-top: 8px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footers-socials li a:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+#subs{
+    background: none;
+    border: 1px solid;
+}
+.border-line{
+    height: 1px;
+    background-color:gray;
+}
+@media (min-width:768px){
+    .video{
+        background: linear-gradient(to right,black 60%,white 40%);
+    }
+}
+@media (min-width:994px){
+    .Volunteer {
+        background: linear-gradient(to left,#6f42c1 50%,white 40%);
+    }
+}

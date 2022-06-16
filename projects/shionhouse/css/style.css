@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+}
+body{
+    margin: 0 10px;
+    overflow-x: hidden;
+}
+.header-social a i{
+    margin-left: 3px;
+    margin-right: 3px;
+   
+}
+/* .navbar li a {
+    color: #1d2547;
+    font-weight: 500;
+    padding: 39px 19px;
+    display: block;
+    font-size: 15px;
+    font-family: poppins,sans-serif;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    text-transform: uppercase;
+} */
+
+.header-social a {
+    color: #1D2547;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 8px;
+    border: 1px solid rgba(29,37,71,0.12);
+}
+.navs{
+    background-color: rgba(0, 0, 0,0.3);
+}
+#order1{
+    color: #1d2547;
+    font-weight: 501;
+    display: block;
+    font-size: 15px;text-transform: uppercase;
+}
+.navbar{
+    background-color: white;
+    color: black;
+}
+#order1:hover{
+    color: #fff;
+}
+.hero{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(252, 227, 4, 0.3), rgba(234, 0, 255, 0.3)), url("https://preview.colorlib.com/theme/shionhouse/assets/img/hero/h1_hero2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.scale{
+    transition: transform 2s;
+}
+.scale:hover{ 
+    transform: scale(-1,1);
+}
+
+.popular-img img{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+/* .popular-img img:hover{
+    background-color: violet;
+} */
+
+.section-tittle h2{
+    text-transform: capitalize;
+    font-family: "Cinzel",serif;
+    color: #140C40;
+    margin-top: 100px;
+    font-style: normal;
+    font-size: 70px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+.popular-caption{
+    text-align: center;
+}
+.popular-caption h3 a{
+    font-family: "Poppins",sans-serif;
+    /* text-decoration: underline; */
+    color: #140C40;
+    font-size: 20px;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+}
+.rating i {
+    font-size: 15px;
+    color: #FBBA42;
+}
+.popular-caption span {
+    color: #444444;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+}
+.datamargin{
+    margin-bottom: 50px;
+}
+.room-btn a{
+    text-decoration: none;
+}
+.room-btn a:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.border-btn {
+    text-decoration: none;
+    border: 1px solid #9F78FF;
+    color: #9F78FF;
+    background: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 17px 42px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+    transition: color 0.4s linear;
+    margin-bottom: 50px;
+    margin-bottom: 50px;
+}
+.collection{
+    padding-top: 90px;
+    padding-bottom: 80px;
+    background-image: linear-gradient(rgba(28, 32, 58, 0.5), rgba(0, 0, 0, 0.5)), url("https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/section_bg01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.btn1{
+        background: #9f78ff;
+        text-transform: capitalize;
+        padding: 12px 24px;
+font-size: 16px;
+        color: #fff;
+        font-weight: 500;
+        display: inline-block;
+        line-height: 1;
+        letter-spacing: 1px;
+        transition: color .4s linear;
+        border-radius: 4px;
+}
+.single-question h2 {
+    color: #fff;
+    font-family: "Cinzel",serif;
+    font-size: 70px;
+    margin-bottom: 21px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: lighter;
+}
+.single-question a{
+    text-decoration: none;
+    color: white;
+}
+.single-question a:hover{
+    background-color: black;
+}
+.hero__caption a {
+    background: #9F78FF;
+    text-transform: capitalize;
+    padding: 10px 24px;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+.hero__caption a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 1s;
+}
+.single-product {
+    margin-bottom: 50px;
+    position: relative;
+}
+.location-img {
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+.location-img img {
+    width: 100%;
+    transform: scale(1);
+    transition: all .5s ease-out 0s;
+}
+.location-details {
+    position: absolute;
+    left: 45px;
+    bottom: 53px;
+    transition: .4s;
+}
+.popular-product{
+    padding-top: 50px;
+}
+.location-details p a{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 400;
+    display: block;
+    font-family: "Poppins",sans-serif;
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 13px;
+}
+.location-details a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn1:hover{
+    transition: 1s;
+    background-color: black;
+}
+.section-padding40 {
+    padding-top: 140px;
+    padding-bottom: 130px;
+}
+.gray-bg {
+    background: #f7f7fd;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.cat-icon img {
+    margin-bottom: 26px;
+    display: block;
+}
+.cat-cap h5 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    display: block;
+    text-transform: capitalize;
+    color: #2B2B2B;
+    font-family: "Poppins",sans-serif;
+}
+.cat-cap p {
+    color: #57667e;
+    font-size: 16px;
+    font-family: "Poppins",sans-serif;
+    transition: .2s;
+}
+.footer-area {
+    background: #1D2547;
+}
+.footer-padding {
+    padding-top: 105px;
+    padding-bottom: 50px;
+}
+.footer-bottom-area {
+    background: #1D2547;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.mb-35 {
+    margin-bottom: 35px;
+}
+.footer-area .footer-tittle p {
+    color: #C2C5DB;
+    padding-right: 52px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    line-height: 1.8;
+    font-family: "Poppins",sans-serif;
+}
+.footer-social a:hover {
+    color: #fff;
+    border: 1px solid transparent;
+    background: #9F78FF;
+}
+.footer-social a {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 8px;
+    border: 1px solid #fff;
+}
+.footer-tittle h4 {
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-family: "Poppins",sans-serif;
+}
+.footer-tittle ul li a {
+    color: #C2C5DB;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: underline transparent;
+}
+.footer-tittle ul li {
+    margin-bottom: 15px;
+}
+
+li {
+    list-style: none;
+}
+.footer-border {
+    padding: 33px 0px 20px;
+}
+.footer-copy-right p {
+    color: #C2C5DB;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom: 12px;
+}
+.hero__caption h1{
+    font-family: "Cinzel",serif;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 25%;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+@media (min-width:320px) and (max-width:576px){
+    .section-tittle h2{
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 575px){
+.slider-area .hero__caption h1 {
+    font-size: 41px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    
+}
+.collection .single-question h2 {
+    font-size: 26px;
+}
+.location-details p {
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 13px;
+    font-weight: 400;
+}
+.btn {
+    padding: 8px 15px;
+    font-size: 12px;
+}
+}
+@media (min-width: 768px){
+    .hero{
+        height: 600px;
+    }
+    .hero h1{
+        margin-top: 10%;
+        font-size: 100px;
+        font-weight: lighter;
+    }
+    .collection{
+        height: 600px;
+        
+    }
+    .collection h2{
+        margin-top: 10%;
+    }
+    .location-details p a{
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+
+}
+@media (min-width: 992px) and (min-width:768px){
+    .hero{
+        height: 600px;
+    }
+    .hero h1{
+        margin-top: 10%;
+        font-size: 100px;
+        font-weight: lighter;
+    }
+    .collection{
+        height: 600px;
+        
+    }
+    .collection h2{
+        margin-top: 10%;
+    }
+    .location-details p a{
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

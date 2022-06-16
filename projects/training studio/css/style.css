@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    overflow-x: hidden;
+}
+.hero{
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(rgba(33,37,41,0.3), rgba(33,37,41.3)), url(../images/illustration/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.navbar{
+    background: rgba(250,250,250,0.1)
+}
+.navbar-brand{
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-nav li a:hover{
+    background-color: white;
+    color: black;
+}
+.color{
+    color: #ed563b;;
+}
+.unorder li a{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+}
+.hero h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+#signin {
+    background-color: orangered;
+    padding: 10px 15px;   
+    font-family: 'Poppins', sans-serif;
+}
+.hero h6{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.8px;
+}
+.caption{
+    text-align: center;
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    padding-top: 300px;
+}
+#signin2{
+    font-size: 15px;
+    padding: 12px 20px;
+    background-color: #ed563b;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.Program{
+    width: 100%;
+}
+.one h2{
+    margin-top: 0px;
+    margin-bottom: 7px;
+    letter-spacing: 0.25px;
+    color: #232d39;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+.one p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #7a7a7a;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.one a{
+    margin-top: 7px;
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ed563b;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.text-left{
+    margin: 0 auto;
+}
+.section-heading{
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 80px;
+}
+.section-heading h2, .train h2{
+    font-size: 28px;
+    font-weight: 800;
+    color: #232d39;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.section-heading p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #7a7a7a;
+    font-family: 'Poppins', sans-serif;
+}
+.feature-items{
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    margin-bottom: 60px;
+}
+.feature-item{
+    display: inline-block;
+    margin-bottom: 60px;
+}
+.feature-item .left-icon img {
+    float: left;
+    margin-right: 30px;
+}
+.feature-item .right-content h4 {
+    margin-top: 0px;
+    margin-bottom: 7px;
+    letter-spacing: 0.25px;
+    color: #232d39;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif
+}
+.right-content p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #7a7a7a;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+}
+.right-content a {
+    margin-top: 7px;
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ed563b;
+    font-weight: 500;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+#call-to-action {
+    padding: 120px 0px;
+    background-image: url(https://templatemo.com/templates/templatemo_548_training_studio/assets/images/cta-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.cta-content h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.cta-content p {
+    font-size: 16px;
+    color: #fff;
+    margin: 15px 0px 25px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.intro-anchor a {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 20px;
+    background-color: #ed563b;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: all .3s;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+#tab li{
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+#tab  li a {
+    text-transform: capitalize;
+    width: 100%;
+    padding: 30px 30px;
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    font-size: 19px;
+    color: #232d39;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+#tab li a img{
+    max-width: 100%;
+    margin-right: 20px;
+}
+.rounded-button a{
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 30px;
+    width: 100%;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    color: #fff;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    background-color: #ed563b;
+    font-family: 'Poppins', sans-serif;
+}
+.class-article img{
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.class-article h4{
+    font-size: 23px;
+    font-weight: 700;
+    color: #232d39;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.class-article p{
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-bottom: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+.class-article a{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-size: 15px;
+    padding: 12px 20px;
+    background-color: #ed563b;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.class-time{
+    padding: 0px 0px 140px 0px;
+    background-image: url(https://templatemo.com/templates/templatemo_548_training_studio/assets/images/schedule-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-heading {
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 55px;
+}
+#col1{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+#col2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.section-heading h2{
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.breadcrumb {
+    background: none;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+    color: white;
+}
+.tabledata{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #fff;
+}
+.tabledata tbody tr{
+    border-bottom: 1px solid #fff;
+}
+.tabledata tbody tr td{
+    border-right: 1px solid #fff;
+    height: 100px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 800;
+    letter-spacing: 0.25px;
+    font-family: 'Poppins', sans-serif;
+}
+.section-heading1 {
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 55px;
+}
+.section-heading1 h2{
+    color: #000;
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.trainer-item{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    padding: 40px;
+}
+.image-thumb{
+    vertical-align: middle;
+    border-style: none;
+}
+.image-thumb img{
+    width: 100%;
+    border-radius: 5px;
+}
+.down-content span{
+    font-size: 13px;
+    font-weight: 500;
+    color: #ed563b;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.down-content p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #7a7a7a;
+    font-family: 'Poppins', sans-serif;
+}
+.fab{
+    margin: 5px;
+    color: black;
+}
+.contact-form{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://templatemo.com/templates/templatemo_548_training_studio/assets/images/contact-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.maps{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.contact{
+    margin-top: 140px;
+}
+#contactdata{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+}
+.f1 input{
+    color: #7a7a7a;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    line-height: 40px;
+    padding: 0px 10px;
+    appearance: none;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.f2 textarea{
+    color: #7a7a7a;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 100%;
+    height: 90px;
+    outline: none;
+    padding: 0px 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.main-button{
+    display: inline-block;
+    font-size: 13px;
+    padding: 11px 17px;
+    background-color: #ed563b;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+.footer{
+    text-align: center;
+    padding: 30px 0px;
+    line-height: 25px;
+}
+.footer p{
+    color: #232d39;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.scale{
+    transition: transform 2s;
+}
+.scale:hover{ 
+    transform: scale(-1,1);
+}
